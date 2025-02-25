@@ -37,3 +37,4 @@ int arr[] = {12, 34, 54, 2, 3}, i;
   int n = sizeof(arr)/sizeof(arr[0]);
 cout << "Array before sorting: \n";
 printArray(arr, n);
+shellSort(arr, n);
