@@ -2,3 +2,5 @@
 #include  <iostream>
 using namespace std;
 /* function to sort arr using shellSort */
+int shellSort(int arr[], int n)
+{
