@@ -38,3 +38,4 @@ int arr[] = {12, 34, 54, 2, 3}, i;
 cout << "Array before sorting: \n";
 printArray(arr, n);
 shellSort(arr, n);
+cout << "\nArray after sorting: \n";
