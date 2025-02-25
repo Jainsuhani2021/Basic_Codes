@@ -18,3 +18,10 @@ int len = c.size();
   else 
     return c[len / 2];
 }
+int main() {
+    vector<int> a = { -5, 3, 6, 12, 15 };
+    vector<int> b = { -12, -10, -6, -3, 4, 10 };
+
+    cout << medianOf2(a, b) << endl;
+    return 0;
+}
