@@ -12,3 +12,4 @@ c.insert(c.end(), b.begin(), b.end());
 sort(c.begin(), c.end());
 int len = c.size();
   // If length of array is even
+ if (len % 2 == 0) 
