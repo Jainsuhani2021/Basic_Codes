@@ -16,3 +16,4 @@ for (int i = gap; i < n; i += 1)
 // save a[i] in temp and make a hole at position i
  int temp = arr[i];
  // shift earlier gap-sorted elements up until the correct 
+// location for a[i] is found
