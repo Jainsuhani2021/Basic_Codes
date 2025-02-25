@@ -7,4 +7,5 @@ using namespace std;
 double medianOf2(vector<int>& a, vector<int>& b) {
 // Merge both the arrays
 vector<int> c(a.begin(), a.end());
- c.insert(c.end(), b.begin(), b.end());
+c.insert(c.end(), b.begin(), b.end());
+// Sort the concatenated array
