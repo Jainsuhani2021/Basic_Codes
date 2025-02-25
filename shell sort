@@ -3,4 +3,4 @@
 using namespace std;
 /* function to sort arr using shellSort */
 int shellSort(int arr[], int n)
-{
+{ // Start with a big gap, then reduce the gap
