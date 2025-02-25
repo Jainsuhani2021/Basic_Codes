@@ -14,3 +14,4 @@ int len = c.size();
   // If length of array is even
  if (len % 2 == 0) 
        return (c[len / 2] + c[len / 2 - 1]) / 2.0;
+// If length of array is odd
