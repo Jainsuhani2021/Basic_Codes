@@ -12,4 +12,4 @@ int shellSort(int arr[], int n)
  // gap sorted 
 for (int i = gap; i < n; i += 1)
  {
-       
+   // add a[i] to the elements that have been gap sorted    
