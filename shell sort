@@ -21,3 +21,4 @@ int j;
  for (j = i; j >= gap && arr[j - gap] > temp; j -= gap)
         arr[j] = arr[j - gap];
  //  put temp (the original a[i]) in its correct location
+ arr[j] = temp;
