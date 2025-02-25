@@ -40,3 +40,4 @@ printArray(arr, n);
 shellSort(arr, n);
 cout << "\nArray after sorting: \n";
  printArray(arr, n);
+return 0;
