@@ -17,3 +17,4 @@ for (int i = gap; i < n; i += 1)
  int temp = arr[i];
  // shift earlier gap-sorted elements up until the correct 
 // location for a[i] is found
+int j;   
