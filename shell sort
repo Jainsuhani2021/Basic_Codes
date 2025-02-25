@@ -26,3 +26,4 @@ int j;
 }
  return 0;
 }
+void printArray(int arr[], int n)
