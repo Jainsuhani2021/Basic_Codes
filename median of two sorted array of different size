@@ -17,3 +17,4 @@ int len = c.size();
 // If length of array is odd
   else 
     return c[len / 2];
+}
